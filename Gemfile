@@ -13,7 +13,3 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc4'
 end
-
-group :production, :staging do
-  gem "pg"
-end
